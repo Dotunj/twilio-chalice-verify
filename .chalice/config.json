@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "app_name": "twilio_verify",
+  "environment_variables": {
+    "TWILIO_AUTH_TOKEN": "TWILIO_AUTH_TOKEN",
+    "TWILIO_ACCOUNT_SID": "TWILIO_ACCOUNT_SID",
+    "TWILIO_SERVICE_SID": "TWILIO_SERVICE_SID"
+  },
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api"
+    }
+  }
+}
