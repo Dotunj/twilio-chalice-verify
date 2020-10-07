@@ -1,10 +1,12 @@
 # User Verification Service using Python, Chalice and AWS Lambda
 This is an example of a serverless user verification service that is built using [Twilio Verify](https://www.twilio.com/verify), the [Chalice Framework](https://aws.github.io/chalice/quickstart.html) and [AWS Lambda](https://aws.amazon.com/lambda/)
 
+You can read about how it was built [here](https://www.twilio.com/blog/serverless-user-verification-service-python-twilio-verify-chalice).
+
 ## Installation
 1. Clone the repo and change into directory
 ```shell
-git clone https://github.com/dotunj/twilio-chalice-verify.git
+git clone https://github.com/Dotunj/twilio-chalice-verify.git
 cd twilio-chalice-verify
 ```
 2. Create a virtual environment and install the dependencies with Pip. For Linux and Mac users:
